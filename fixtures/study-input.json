@@ -1,0 +1,8132 @@
+{
+  "document": {
+    "version": 1,
+    "providers": [
+      {
+        "id": "p",
+        "region": "east",
+        "capacity": 300,
+        "weekdays": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "closed": [],
+        "extra_open": []
+      },
+      {
+        "id": "q",
+        "region": "west",
+        "capacity": 300,
+        "weekdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "closed": [
+          "2026-11-02"
+        ],
+        "extra_open": [
+          "2026-11-07"
+        ]
+      }
+    ],
+    "households": [
+      {
+        "id": "family-0",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 3190000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-0",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-1",
+        "region": "west",
+        "income_low": 1050000,
+        "income_high": 1050000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-1",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-2",
+        "region": "east",
+        "income_low": 1100000,
+        "income_high": 1100000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-2",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-3",
+        "region": "west",
+        "income_low": 1150000,
+        "income_high": 1150000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-3",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-4",
+        "region": "east",
+        "income_low": 1200000,
+        "income_high": 1200000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-4",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-5",
+        "region": "west",
+        "income_low": 1250000,
+        "income_high": 1250000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-5",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-6",
+        "region": "east",
+        "income_low": 1300000,
+        "income_high": 1300000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-6",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-7",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-7",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-8",
+        "region": "east",
+        "income_low": 1400000,
+        "income_high": 1400000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-8",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-9",
+        "region": "west",
+        "income_low": 1450000,
+        "income_high": 1450000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-9",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-10",
+        "region": "east",
+        "income_low": 1500000,
+        "income_high": 1500000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-10",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-11",
+        "region": "west",
+        "income_low": 1550000,
+        "income_high": 1550000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-11",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-12",
+        "region": "east",
+        "income_low": 1600000,
+        "income_high": 1600000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-12",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-13",
+        "region": "west",
+        "income_low": 1650000,
+        "income_high": 1850000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-13",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-14",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-14",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-15",
+        "region": "west",
+        "income_low": 1750000,
+        "income_high": 1750000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-15",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-16",
+        "region": "east",
+        "income_low": 1800000,
+        "income_high": 1800000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-16",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-17",
+        "region": "west",
+        "income_low": 1850000,
+        "income_high": 1850000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-17",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-18",
+        "region": "east",
+        "income_low": 1900000,
+        "income_high": 1900000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-18",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-19",
+        "region": "west",
+        "income_low": 1950000,
+        "income_high": 1950000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-19",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-20",
+        "region": "east",
+        "income_low": 2000000,
+        "income_high": 2000000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-20",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-21",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-21",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-22",
+        "region": "east",
+        "income_low": 2100000,
+        "income_high": 2100000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-22",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-23",
+        "region": "west",
+        "income_low": 2150000,
+        "income_high": 2150000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-23",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-24",
+        "region": "east",
+        "income_low": 2200000,
+        "income_high": 2200000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-24",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-25",
+        "region": "west",
+        "income_low": 2250000,
+        "income_high": 2250000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-25",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-26",
+        "region": "east",
+        "income_low": 2300000,
+        "income_high": 2500000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-26",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-27",
+        "region": "west",
+        "income_low": 2350000,
+        "income_high": 2350000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-27",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-28",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-28",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-29",
+        "region": "west",
+        "income_low": 2450000,
+        "income_high": 2450000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-29",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-30",
+        "region": "east",
+        "income_low": 2500000,
+        "income_high": 2500000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-30",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-31",
+        "region": "west",
+        "income_low": 2550000,
+        "income_high": 2550000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-31",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-32",
+        "region": "east",
+        "income_low": 2600000,
+        "income_high": 2600000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-32",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-33",
+        "region": "west",
+        "income_low": 2650000,
+        "income_high": 2650000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-33",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-34",
+        "region": "east",
+        "income_low": 2700000,
+        "income_high": 2700000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-34",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-35",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-35",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-36",
+        "region": "east",
+        "income_low": 2800000,
+        "income_high": 2800000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-36",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-37",
+        "region": "west",
+        "income_low": 2850000,
+        "income_high": 2850000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-37",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-38",
+        "region": "east",
+        "income_low": 2900000,
+        "income_high": 2900000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-38",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-39",
+        "region": "west",
+        "income_low": 2950000,
+        "income_high": 3150000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-39",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-40",
+        "region": "east",
+        "income_low": 3000000,
+        "income_high": 3000000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-40",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-41",
+        "region": "west",
+        "income_low": 3050000,
+        "income_high": 3050000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-41",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-42",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-42",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-43",
+        "region": "west",
+        "income_low": 3150000,
+        "income_high": 3150000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-43",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-44",
+        "region": "east",
+        "income_low": 3200000,
+        "income_high": 3200000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-44",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-45",
+        "region": "west",
+        "income_low": 3250000,
+        "income_high": 3250000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-45",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-46",
+        "region": "east",
+        "income_low": 3300000,
+        "income_high": 3300000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-46",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-47",
+        "region": "west",
+        "income_low": 3350000,
+        "income_high": 3350000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-47",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-48",
+        "region": "east",
+        "income_low": 3400000,
+        "income_high": 3400000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-48",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-49",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-49",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-50",
+        "region": "east",
+        "income_low": 3500000,
+        "income_high": 3500000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-50",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-51",
+        "region": "west",
+        "income_low": 3550000,
+        "income_high": 3550000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-51",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-52",
+        "region": "east",
+        "income_low": 3600000,
+        "income_high": 3800000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-52",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-53",
+        "region": "west",
+        "income_low": 3650000,
+        "income_high": 3650000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-53",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-54",
+        "region": "east",
+        "income_low": 3700000,
+        "income_high": 3700000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-54",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-55",
+        "region": "west",
+        "income_low": 3750000,
+        "income_high": 3750000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-55",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-56",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-56",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-57",
+        "region": "west",
+        "income_low": 3850000,
+        "income_high": 3850000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-57",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-58",
+        "region": "east",
+        "income_low": 3900000,
+        "income_high": 3900000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-58",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-59",
+        "region": "west",
+        "income_low": 3950000,
+        "income_high": 3950000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-59",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-60",
+        "region": "east",
+        "income_low": 4000000,
+        "income_high": 4000000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-60",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-61",
+        "region": "west",
+        "income_low": 4050000,
+        "income_high": 4050000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-61",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-62",
+        "region": "east",
+        "income_low": 4100000,
+        "income_high": 4100000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-62",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-63",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-63",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-64",
+        "region": "east",
+        "income_low": 4200000,
+        "income_high": 4200000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-64",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-65",
+        "region": "west",
+        "income_low": 4250000,
+        "income_high": 4450000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-65",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-66",
+        "region": "east",
+        "income_low": 4300000,
+        "income_high": 4300000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-66",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-67",
+        "region": "west",
+        "income_low": 4350000,
+        "income_high": 4350000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-67",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-68",
+        "region": "east",
+        "income_low": 4400000,
+        "income_high": 4400000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-68",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-69",
+        "region": "west",
+        "income_low": 4450000,
+        "income_high": 4450000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-69",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-70",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-70",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-71",
+        "region": "west",
+        "income_low": 4550000,
+        "income_high": 4550000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-71",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-72",
+        "region": "east",
+        "income_low": 4600000,
+        "income_high": 4600000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-72",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-73",
+        "region": "west",
+        "income_low": 4650000,
+        "income_high": 4650000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-73",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-74",
+        "region": "east",
+        "income_low": 4700000,
+        "income_high": 4700000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-74",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-75",
+        "region": "west",
+        "income_low": 4750000,
+        "income_high": 4750000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-75",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-76",
+        "region": "east",
+        "income_low": 4800000,
+        "income_high": 4800000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-76",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-77",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-77",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-78",
+        "region": "east",
+        "income_low": 4900000,
+        "income_high": 5100000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-78",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-79",
+        "region": "west",
+        "income_low": 4950000,
+        "income_high": 4950000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-79",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-80",
+        "region": "east",
+        "income_low": 1000000,
+        "income_high": 1000000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-80",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-81",
+        "region": "west",
+        "income_low": 1050000,
+        "income_high": 1050000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-81",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-82",
+        "region": "east",
+        "income_low": 1100000,
+        "income_high": 1100000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-82",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-83",
+        "region": "west",
+        "income_low": 1150000,
+        "income_high": 1150000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-83",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-84",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-84",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-85",
+        "region": "west",
+        "income_low": 1250000,
+        "income_high": 1250000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-85",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-86",
+        "region": "east",
+        "income_low": 1300000,
+        "income_high": 1300000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-86",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-87",
+        "region": "west",
+        "income_low": 1350000,
+        "income_high": 1350000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-87",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-88",
+        "region": "east",
+        "income_low": 1400000,
+        "income_high": 1400000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-88",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-89",
+        "region": "west",
+        "income_low": 1450000,
+        "income_high": 1450000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-89",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-90",
+        "region": "east",
+        "income_low": 1500000,
+        "income_high": 1500000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-90",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-91",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 3190000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-91",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-92",
+        "region": "east",
+        "income_low": 1600000,
+        "income_high": 1600000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-92",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-93",
+        "region": "west",
+        "income_low": 1650000,
+        "income_high": 1650000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-93",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-94",
+        "region": "east",
+        "income_low": 1700000,
+        "income_high": 1700000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-94",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-95",
+        "region": "west",
+        "income_low": 1750000,
+        "income_high": 1750000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-95",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-96",
+        "region": "east",
+        "income_low": 1800000,
+        "income_high": 1800000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-96",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-97",
+        "region": "west",
+        "income_low": 1850000,
+        "income_high": 1850000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-97",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-98",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-98",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-99",
+        "region": "west",
+        "income_low": 1950000,
+        "income_high": 1950000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-99",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-100",
+        "region": "east",
+        "income_low": 2000000,
+        "income_high": 2000000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-100",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-101",
+        "region": "west",
+        "income_low": 2050000,
+        "income_high": 2050000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-101",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-102",
+        "region": "east",
+        "income_low": 2100000,
+        "income_high": 2100000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-102",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-103",
+        "region": "west",
+        "income_low": 2150000,
+        "income_high": 2150000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-103",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-104",
+        "region": "east",
+        "income_low": 2200000,
+        "income_high": 2400000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-104",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-105",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-105",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-106",
+        "region": "east",
+        "income_low": 2300000,
+        "income_high": 2300000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-106",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-107",
+        "region": "west",
+        "income_low": 2350000,
+        "income_high": 2350000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-107",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-108",
+        "region": "east",
+        "income_low": 2400000,
+        "income_high": 2400000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-108",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-109",
+        "region": "west",
+        "income_low": 2450000,
+        "income_high": 2450000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-109",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-110",
+        "region": "east",
+        "income_low": 2500000,
+        "income_high": 2500000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-110",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-111",
+        "region": "west",
+        "income_low": 2550000,
+        "income_high": 2550000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-111",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-112",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-112",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-113",
+        "region": "west",
+        "income_low": 2650000,
+        "income_high": 2650000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-113",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-114",
+        "region": "east",
+        "income_low": 2700000,
+        "income_high": 2700000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-114",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-115",
+        "region": "west",
+        "income_low": 2750000,
+        "income_high": 2750000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-115",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-116",
+        "region": "east",
+        "income_low": 2800000,
+        "income_high": 2800000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-116",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-117",
+        "region": "west",
+        "income_low": 2850000,
+        "income_high": 3050000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-117",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-118",
+        "region": "east",
+        "income_low": 2900000,
+        "income_high": 2900000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-118",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-119",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-119",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-120",
+        "region": "east",
+        "income_low": 3000000,
+        "income_high": 3000000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-120",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-121",
+        "region": "west",
+        "income_low": 3050000,
+        "income_high": 3050000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-121",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-122",
+        "region": "east",
+        "income_low": 3100000,
+        "income_high": 3100000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-122",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-123",
+        "region": "west",
+        "income_low": 3150000,
+        "income_high": 3150000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-123",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-124",
+        "region": "east",
+        "income_low": 3200000,
+        "income_high": 3200000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-124",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-125",
+        "region": "west",
+        "income_low": 3250000,
+        "income_high": 3250000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-125",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-126",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-126",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-127",
+        "region": "west",
+        "income_low": 3350000,
+        "income_high": 3350000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-127",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-128",
+        "region": "east",
+        "income_low": 3400000,
+        "income_high": 3400000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-128",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-129",
+        "region": "west",
+        "income_low": 3450000,
+        "income_high": 3450000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-129",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-130",
+        "region": "east",
+        "income_low": 3500000,
+        "income_high": 3700000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-130",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-131",
+        "region": "west",
+        "income_low": 3550000,
+        "income_high": 3550000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-131",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-132",
+        "region": "east",
+        "income_low": 3600000,
+        "income_high": 3600000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-132",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-133",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-133",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-134",
+        "region": "east",
+        "income_low": 3700000,
+        "income_high": 3700000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-134",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-135",
+        "region": "west",
+        "income_low": 3750000,
+        "income_high": 3750000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-135",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-136",
+        "region": "east",
+        "income_low": 3800000,
+        "income_high": 3800000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-136",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-137",
+        "region": "west",
+        "income_low": 3850000,
+        "income_high": 3850000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-137",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-138",
+        "region": "east",
+        "income_low": 3900000,
+        "income_high": 3900000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-138",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-139",
+        "region": "west",
+        "income_low": 3950000,
+        "income_high": 3950000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-139",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-140",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-140",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-141",
+        "region": "west",
+        "income_low": 4050000,
+        "income_high": 4050000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-141",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-142",
+        "region": "east",
+        "income_low": 4100000,
+        "income_high": 4100000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-142",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-143",
+        "region": "west",
+        "income_low": 4150000,
+        "income_high": 4350000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-143",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-144",
+        "region": "east",
+        "income_low": 4200000,
+        "income_high": 4200000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-144",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-145",
+        "region": "west",
+        "income_low": 4250000,
+        "income_high": 4250000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-145",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-146",
+        "region": "east",
+        "income_low": 4300000,
+        "income_high": 4300000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-146",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-147",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-147",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-148",
+        "region": "east",
+        "income_low": 4400000,
+        "income_high": 4400000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-148",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-149",
+        "region": "west",
+        "income_low": 4450000,
+        "income_high": 4450000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-149",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-150",
+        "region": "east",
+        "income_low": 4500000,
+        "income_high": 4500000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-150",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-151",
+        "region": "west",
+        "income_low": 4550000,
+        "income_high": 4550000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-151",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-152",
+        "region": "east",
+        "income_low": 4600000,
+        "income_high": 4600000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-152",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-153",
+        "region": "west",
+        "income_low": 4650000,
+        "income_high": 4650000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-153",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-154",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-154",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-155",
+        "region": "west",
+        "income_low": 4750000,
+        "income_high": 4750000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-155",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-156",
+        "region": "east",
+        "income_low": 4800000,
+        "income_high": 5000000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-156",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-157",
+        "region": "west",
+        "income_low": 4850000,
+        "income_high": 4850000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-157",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-158",
+        "region": "east",
+        "income_low": 4900000,
+        "income_high": 4900000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-158",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-159",
+        "region": "west",
+        "income_low": 4950000,
+        "income_high": 4950000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-159",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-160",
+        "region": "east",
+        "income_low": 1000000,
+        "income_high": 1000000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-160",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-161",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-161",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-162",
+        "region": "east",
+        "income_low": 1100000,
+        "income_high": 1100000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-162",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-163",
+        "region": "west",
+        "income_low": 1150000,
+        "income_high": 1150000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-163",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-164",
+        "region": "east",
+        "income_low": 1200000,
+        "income_high": 1200000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-164",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-165",
+        "region": "west",
+        "income_low": 1250000,
+        "income_high": 1250000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-165",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-166",
+        "region": "east",
+        "income_low": 1300000,
+        "income_high": 1300000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-166",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-167",
+        "region": "west",
+        "income_low": 1350000,
+        "income_high": 1350000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-167",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-168",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-168",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-169",
+        "region": "west",
+        "income_low": 1450000,
+        "income_high": 1650000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-169",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-170",
+        "region": "east",
+        "income_low": 1500000,
+        "income_high": 1500000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-170",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-171",
+        "region": "west",
+        "income_low": 1550000,
+        "income_high": 1550000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-171",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-172",
+        "region": "east",
+        "income_low": 1600000,
+        "income_high": 1600000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-172",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-173",
+        "region": "west",
+        "income_low": 1650000,
+        "income_high": 1650000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-173",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-174",
+        "region": "east",
+        "income_low": 1700000,
+        "income_high": 1700000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-174",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-175",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-175",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-176",
+        "region": "east",
+        "income_low": 1800000,
+        "income_high": 1800000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-176",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-177",
+        "region": "west",
+        "income_low": 1850000,
+        "income_high": 1850000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-177",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-178",
+        "region": "east",
+        "income_low": 1900000,
+        "income_high": 1900000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-178",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-179",
+        "region": "west",
+        "income_low": 1950000,
+        "income_high": 1950000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-179",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-180",
+        "region": "east",
+        "income_low": 2000000,
+        "income_high": 2000000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-180",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-181",
+        "region": "west",
+        "income_low": 2050000,
+        "income_high": 2050000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-181",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-182",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 3190000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-182",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-183",
+        "region": "west",
+        "income_low": 2150000,
+        "income_high": 2150000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-183",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-184",
+        "region": "east",
+        "income_low": 2200000,
+        "income_high": 2200000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-184",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-185",
+        "region": "west",
+        "income_low": 2250000,
+        "income_high": 2250000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-185",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-186",
+        "region": "east",
+        "income_low": 2300000,
+        "income_high": 2300000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-186",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-187",
+        "region": "west",
+        "income_low": 2350000,
+        "income_high": 2350000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-187",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-188",
+        "region": "east",
+        "income_low": 2400000,
+        "income_high": 2400000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-188",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-189",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-189",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-190",
+        "region": "east",
+        "income_low": 2500000,
+        "income_high": 2500000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-190",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-191",
+        "region": "west",
+        "income_low": 2550000,
+        "income_high": 2550000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-191",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-192",
+        "region": "east",
+        "income_low": 2600000,
+        "income_high": 2600000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-192",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-193",
+        "region": "west",
+        "income_low": 2650000,
+        "income_high": 2650000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-193",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-194",
+        "region": "east",
+        "income_low": 2700000,
+        "income_high": 2700000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-194",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-195",
+        "region": "west",
+        "income_low": 2750000,
+        "income_high": 2950000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-195",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-196",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-196",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-197",
+        "region": "west",
+        "income_low": 2850000,
+        "income_high": 2850000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-197",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-198",
+        "region": "east",
+        "income_low": 2900000,
+        "income_high": 2900000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-198",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-199",
+        "region": "west",
+        "income_low": 2950000,
+        "income_high": 2950000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-199",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-200",
+        "region": "east",
+        "income_low": 3000000,
+        "income_high": 3000000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-200",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-201",
+        "region": "west",
+        "income_low": 3050000,
+        "income_high": 3050000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-201",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-202",
+        "region": "east",
+        "income_low": 3100000,
+        "income_high": 3100000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-202",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-203",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-203",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-204",
+        "region": "east",
+        "income_low": 3200000,
+        "income_high": 3200000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-204",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-205",
+        "region": "west",
+        "income_low": 3250000,
+        "income_high": 3250000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-205",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-206",
+        "region": "east",
+        "income_low": 3300000,
+        "income_high": 3300000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-206",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-207",
+        "region": "west",
+        "income_low": 3350000,
+        "income_high": 3350000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-207",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-208",
+        "region": "east",
+        "income_low": 3400000,
+        "income_high": 3600000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-208",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-209",
+        "region": "west",
+        "income_low": 3450000,
+        "income_high": 3450000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-209",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-210",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-210",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-211",
+        "region": "west",
+        "income_low": 3550000,
+        "income_high": 3550000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-211",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-212",
+        "region": "east",
+        "income_low": 3600000,
+        "income_high": 3600000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-212",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-213",
+        "region": "west",
+        "income_low": 3650000,
+        "income_high": 3650000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-213",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-214",
+        "region": "east",
+        "income_low": 3700000,
+        "income_high": 3700000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-214",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-215",
+        "region": "west",
+        "income_low": 3750000,
+        "income_high": 3750000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-215",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-216",
+        "region": "east",
+        "income_low": 3800000,
+        "income_high": 3800000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-216",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-217",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-217",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-218",
+        "region": "east",
+        "income_low": 3900000,
+        "income_high": 3900000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-218",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-219",
+        "region": "west",
+        "income_low": 3950000,
+        "income_high": 3950000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-219",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-220",
+        "region": "east",
+        "income_low": 4000000,
+        "income_high": 4000000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-220",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-221",
+        "region": "west",
+        "income_low": 4050000,
+        "income_high": 4250000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-221",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-222",
+        "region": "east",
+        "income_low": 4100000,
+        "income_high": 4100000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-222",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-223",
+        "region": "west",
+        "income_low": 4150000,
+        "income_high": 4150000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-223",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-224",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-224",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-225",
+        "region": "west",
+        "income_low": 4250000,
+        "income_high": 4250000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-225",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-226",
+        "region": "east",
+        "income_low": 4300000,
+        "income_high": 4300000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-226",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-227",
+        "region": "west",
+        "income_low": 4350000,
+        "income_high": 4350000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-227",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-228",
+        "region": "east",
+        "income_low": 4400000,
+        "income_high": 4400000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-228",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-229",
+        "region": "west",
+        "income_low": 4450000,
+        "income_high": 4450000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-229",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-230",
+        "region": "east",
+        "income_low": 4500000,
+        "income_high": 4500000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-230",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-231",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-231",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-232",
+        "region": "east",
+        "income_low": 4600000,
+        "income_high": 4600000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-232",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-233",
+        "region": "west",
+        "income_low": 4650000,
+        "income_high": 4650000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-233",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-234",
+        "region": "east",
+        "income_low": 4700000,
+        "income_high": 4900000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-234",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-235",
+        "region": "west",
+        "income_low": 4750000,
+        "income_high": 4750000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-235",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-236",
+        "region": "east",
+        "income_low": 4800000,
+        "income_high": 4800000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-236",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-237",
+        "region": "west",
+        "income_low": 4850000,
+        "income_high": 4850000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-237",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-238",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-238",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-239",
+        "region": "west",
+        "income_low": 4950000,
+        "income_high": 4950000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-239",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-240",
+        "region": "east",
+        "income_low": 1000000,
+        "income_high": 1000000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-240",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-241",
+        "region": "west",
+        "income_low": 1050000,
+        "income_high": 1050000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-241",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-242",
+        "region": "east",
+        "income_low": 1100000,
+        "income_high": 1100000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-242",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-243",
+        "region": "west",
+        "income_low": 1150000,
+        "income_high": 1150000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-243",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-244",
+        "region": "east",
+        "income_low": 1200000,
+        "income_high": 1200000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-244",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-245",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-245",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-246",
+        "region": "east",
+        "income_low": 1300000,
+        "income_high": 1300000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-246",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-247",
+        "region": "west",
+        "income_low": 1350000,
+        "income_high": 1550000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-247",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-248",
+        "region": "east",
+        "income_low": 1400000,
+        "income_high": 1400000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-248",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-249",
+        "region": "west",
+        "income_low": 1450000,
+        "income_high": 1450000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-249",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-250",
+        "region": "east",
+        "income_low": 1500000,
+        "income_high": 1500000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-250",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-251",
+        "region": "west",
+        "income_low": 1550000,
+        "income_high": 1550000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-251",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-252",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-252",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-253",
+        "region": "west",
+        "income_low": 1650000,
+        "income_high": 1650000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-253",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-254",
+        "region": "east",
+        "income_low": 1700000,
+        "income_high": 1700000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-254",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-255",
+        "region": "west",
+        "income_low": 1750000,
+        "income_high": 1750000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-255",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-256",
+        "region": "east",
+        "income_low": 1800000,
+        "income_high": 1800000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-256",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-257",
+        "region": "west",
+        "income_low": 1850000,
+        "income_high": 1850000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-257",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-258",
+        "region": "east",
+        "income_low": 1900000,
+        "income_high": 1900000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-258",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-259",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-259",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-260",
+        "region": "east",
+        "income_low": 2000000,
+        "income_high": 2200000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-260",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-261",
+        "region": "west",
+        "income_low": 2050000,
+        "income_high": 2050000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-261",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-262",
+        "region": "east",
+        "income_low": 2100000,
+        "income_high": 2100000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-262",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-263",
+        "region": "west",
+        "income_low": 2150000,
+        "income_high": 2150000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-263",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-264",
+        "region": "east",
+        "income_low": 2200000,
+        "income_high": 2200000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-264",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-265",
+        "region": "west",
+        "income_low": 2250000,
+        "income_high": 2250000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-265",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-266",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-266",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-267",
+        "region": "west",
+        "income_low": 2350000,
+        "income_high": 2350000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-267",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-268",
+        "region": "east",
+        "income_low": 2400000,
+        "income_high": 2400000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-268",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-269",
+        "region": "west",
+        "income_low": 2450000,
+        "income_high": 2450000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-269",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-270",
+        "region": "east",
+        "income_low": 2500000,
+        "income_high": 2500000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-270",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-271",
+        "region": "west",
+        "income_low": 2550000,
+        "income_high": 2550000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-271",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-272",
+        "region": "east",
+        "income_low": 2600000,
+        "income_high": 2600000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-272",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-273",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 3190000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-273",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-274",
+        "region": "east",
+        "income_low": 2700000,
+        "income_high": 2700000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-274",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-275",
+        "region": "west",
+        "income_low": 2750000,
+        "income_high": 2750000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-275",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-276",
+        "region": "east",
+        "income_low": 2800000,
+        "income_high": 2800000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-276",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-277",
+        "region": "west",
+        "income_low": 2850000,
+        "income_high": 2850000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-277",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-278",
+        "region": "east",
+        "income_low": 2900000,
+        "income_high": 2900000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-278",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-279",
+        "region": "west",
+        "income_low": 2950000,
+        "income_high": 2950000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-279",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-280",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-280",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-281",
+        "region": "west",
+        "income_low": 3050000,
+        "income_high": 3050000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-281",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-282",
+        "region": "east",
+        "income_low": 3100000,
+        "income_high": 3100000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-282",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-283",
+        "region": "west",
+        "income_low": 3150000,
+        "income_high": 3150000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-283",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-284",
+        "region": "east",
+        "income_low": 3200000,
+        "income_high": 3200000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-284",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-285",
+        "region": "west",
+        "income_low": 3250000,
+        "income_high": 3250000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-285",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-286",
+        "region": "east",
+        "income_low": 3300000,
+        "income_high": 3500000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-286",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-287",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-287",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-288",
+        "region": "east",
+        "income_low": 3400000,
+        "income_high": 3400000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-288",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-289",
+        "region": "west",
+        "income_low": 3450000,
+        "income_high": 3450000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-289",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-290",
+        "region": "east",
+        "income_low": 3500000,
+        "income_high": 3500000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-290",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-291",
+        "region": "west",
+        "income_low": 3550000,
+        "income_high": 3550000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-291",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-292",
+        "region": "east",
+        "income_low": 3600000,
+        "income_high": 3600000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-292",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-293",
+        "region": "west",
+        "income_low": 3650000,
+        "income_high": 3650000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-293",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-294",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-294",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-295",
+        "region": "west",
+        "income_low": 3750000,
+        "income_high": 3750000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-295",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-296",
+        "region": "east",
+        "income_low": 3800000,
+        "income_high": 3800000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-296",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-297",
+        "region": "west",
+        "income_low": 3850000,
+        "income_high": 3850000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-297",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-298",
+        "region": "east",
+        "income_low": 3900000,
+        "income_high": 3900000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-298",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-299",
+        "region": "west",
+        "income_low": 3950000,
+        "income_high": 4150000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-299",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-300",
+        "region": "east",
+        "income_low": 4000000,
+        "income_high": 4000000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-300",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-301",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-301",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-302",
+        "region": "east",
+        "income_low": 4100000,
+        "income_high": 4100000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-302",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-303",
+        "region": "west",
+        "income_low": 4150000,
+        "income_high": 4150000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-303",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-304",
+        "region": "east",
+        "income_low": 4200000,
+        "income_high": 4200000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-304",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-305",
+        "region": "west",
+        "income_low": 4250000,
+        "income_high": 4250000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-305",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-306",
+        "region": "east",
+        "income_low": 4300000,
+        "income_high": 4300000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-306",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-307",
+        "region": "west",
+        "income_low": 4350000,
+        "income_high": 4350000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-307",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-308",
+        "region": "east",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-308",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-309",
+        "region": "west",
+        "income_low": 4450000,
+        "income_high": 4450000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-309",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-310",
+        "region": "east",
+        "income_low": 4500000,
+        "income_high": 4500000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-310",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-311",
+        "region": "west",
+        "income_low": 4550000,
+        "income_high": 4550000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-311",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-312",
+        "region": "east",
+        "income_low": 4600000,
+        "income_high": 4800000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-312",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-313",
+        "region": "west",
+        "income_low": 4650000,
+        "income_high": 4650000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-313",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-314",
+        "region": "east",
+        "income_low": 4700000,
+        "income_high": 4700000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-314",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-315",
+        "region": "west",
+        "income_low": 2990000,
+        "income_high": 2990000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-315",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-316",
+        "region": "east",
+        "income_low": 4800000,
+        "income_high": 4800000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-316",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-317",
+        "region": "west",
+        "income_low": 4850000,
+        "income_high": 4850000,
+        "weight": 3,
+        "children": [
+          {
+            "id": "child-317",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-318",
+        "region": "east",
+        "income_low": 4900000,
+        "income_high": 4900000,
+        "weight": 1,
+        "children": [
+          {
+            "id": "child-318",
+            "birth": "2025-01-31"
+          }
+        ]
+      },
+      {
+        "id": "family-319",
+        "region": "west",
+        "income_low": 4950000,
+        "income_high": 4950000,
+        "weight": 2,
+        "children": [
+          {
+            "id": "child-319",
+            "birth": "2025-01-31"
+          }
+        ]
+      }
+    ],
+    "fees": [
+      {
+        "id": "care",
+        "provider": "p",
+        "start": "2026-01-01",
+        "end": "2027-01-01",
+        "kind": "monthly",
+        "amount": 30000,
+        "required": true,
+        "proration": "calendar",
+        "min_age": 0,
+        "max_age": 48,
+        "refundable": false
+      },
+      {
+        "id": "meals",
+        "provider": "p",
+        "start": "2026-01-01",
+        "end": "2027-01-01",
+        "kind": "attendance",
+        "amount": 1200,
+        "required": true,
+        "proration": "calendar",
+        "min_age": 0,
+        "max_age": 48,
+        "refundable": false
+      },
+      {
+        "id": "security",
+        "provider": "p",
+        "start": "2026-01-01",
+        "end": "2027-01-01",
+        "kind": "once",
+        "amount": 5000,
+        "required": true,
+        "proration": "calendar",
+        "min_age": 0,
+        "max_age": 48,
+        "refundable": true
+      }
+    ],
+    "subsidies": [
+      {
+        "id": "family",
+        "start": "2026-01-01",
+        "end": "2027-01-01",
+        "region": "*",
+        "mode": "percent",
+        "value": 5000,
+        "income_ceiling": 3000000,
+        "min_age": 0,
+        "max_age": 36,
+        "stack_group": "main",
+        "priority": 5,
+        "family_month_cap": 20000
+      },
+      {
+        "id": "local",
+        "start": "2026-01-01",
+        "end": "2027-01-01",
+        "region": "east",
+        "mode": "flat",
+        "value": 3000,
+        "income_ceiling": 2000000,
+        "min_age": 12,
+        "max_age": 36,
+        "stack_group": "local",
+        "priority": 1,
+        "family_month_cap": 6000
+      }
+    ],
+    "enrollments": [
+      {
+        "id": "enrollment-0",
+        "child": "child-0",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-1",
+        "child": "child-1",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-2",
+        "child": "child-2",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-3",
+        "child": "child-3",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-4",
+        "child": "child-4",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-5",
+        "child": "child-5",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-6",
+        "child": "child-6",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-7",
+        "child": "child-7",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-8",
+        "child": "child-8",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-9",
+        "child": "child-9",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-10",
+        "child": "child-10",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-11",
+        "child": "child-11",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-12",
+        "child": "child-12",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-13",
+        "child": "child-13",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-14",
+        "child": "child-14",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-15",
+        "child": "child-15",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-16",
+        "child": "child-16",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-17",
+        "child": "child-17",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-18",
+        "child": "child-18",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-19",
+        "child": "child-19",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-20",
+        "child": "child-20",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-21",
+        "child": "child-21",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-22",
+        "child": "child-22",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-23",
+        "child": "child-23",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-24",
+        "child": "child-24",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-25",
+        "child": "child-25",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-26",
+        "child": "child-26",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-27",
+        "child": "child-27",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-28",
+        "child": "child-28",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-29",
+        "child": "child-29",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-30",
+        "child": "child-30",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-31",
+        "child": "child-31",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-32",
+        "child": "child-32",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-33",
+        "child": "child-33",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-34",
+        "child": "child-34",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-35",
+        "child": "child-35",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-36",
+        "child": "child-36",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-37",
+        "child": "child-37",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-38",
+        "child": "child-38",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-39",
+        "child": "child-39",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-40",
+        "child": "child-40",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-41",
+        "child": "child-41",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-42",
+        "child": "child-42",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-43",
+        "child": "child-43",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-44",
+        "child": "child-44",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-45",
+        "child": "child-45",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-46",
+        "child": "child-46",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-47",
+        "child": "child-47",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-48",
+        "child": "child-48",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-49",
+        "child": "child-49",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-50",
+        "child": "child-50",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-51",
+        "child": "child-51",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-52",
+        "child": "child-52",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-53",
+        "child": "child-53",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-54",
+        "child": "child-54",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-55",
+        "child": "child-55",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-56",
+        "child": "child-56",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-57",
+        "child": "child-57",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-58",
+        "child": "child-58",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-59",
+        "child": "child-59",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-60",
+        "child": "child-60",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-61",
+        "child": "child-61",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-62",
+        "child": "child-62",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-63",
+        "child": "child-63",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-64",
+        "child": "child-64",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-65",
+        "child": "child-65",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-66",
+        "child": "child-66",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-67",
+        "child": "child-67",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-68",
+        "child": "child-68",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-69",
+        "child": "child-69",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-70",
+        "child": "child-70",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-71",
+        "child": "child-71",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-72",
+        "child": "child-72",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-73",
+        "child": "child-73",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-74",
+        "child": "child-74",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-75",
+        "child": "child-75",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-76",
+        "child": "child-76",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-77",
+        "child": "child-77",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-78",
+        "child": "child-78",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-79",
+        "child": "child-79",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-80",
+        "child": "child-80",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-81",
+        "child": "child-81",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-82",
+        "child": "child-82",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-83",
+        "child": "child-83",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-84",
+        "child": "child-84",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-85",
+        "child": "child-85",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-86",
+        "child": "child-86",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-87",
+        "child": "child-87",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-88",
+        "child": "child-88",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-89",
+        "child": "child-89",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-90",
+        "child": "child-90",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-91",
+        "child": "child-91",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-92",
+        "child": "child-92",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-93",
+        "child": "child-93",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-94",
+        "child": "child-94",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-95",
+        "child": "child-95",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-96",
+        "child": "child-96",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-97",
+        "child": "child-97",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-98",
+        "child": "child-98",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-99",
+        "child": "child-99",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-100",
+        "child": "child-100",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-101",
+        "child": "child-101",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-102",
+        "child": "child-102",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-103",
+        "child": "child-103",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-104",
+        "child": "child-104",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-105",
+        "child": "child-105",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-106",
+        "child": "child-106",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-107",
+        "child": "child-107",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-108",
+        "child": "child-108",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-109",
+        "child": "child-109",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-110",
+        "child": "child-110",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-111",
+        "child": "child-111",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-112",
+        "child": "child-112",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-113",
+        "child": "child-113",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-114",
+        "child": "child-114",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-115",
+        "child": "child-115",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-116",
+        "child": "child-116",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-117",
+        "child": "child-117",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-118",
+        "child": "child-118",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-119",
+        "child": "child-119",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-120",
+        "child": "child-120",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-121",
+        "child": "child-121",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-122",
+        "child": "child-122",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-123",
+        "child": "child-123",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-124",
+        "child": "child-124",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-125",
+        "child": "child-125",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-126",
+        "child": "child-126",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-127",
+        "child": "child-127",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-128",
+        "child": "child-128",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-129",
+        "child": "child-129",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-130",
+        "child": "child-130",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-131",
+        "child": "child-131",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-132",
+        "child": "child-132",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-133",
+        "child": "child-133",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-134",
+        "child": "child-134",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-135",
+        "child": "child-135",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-136",
+        "child": "child-136",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-137",
+        "child": "child-137",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-138",
+        "child": "child-138",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-139",
+        "child": "child-139",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-140",
+        "child": "child-140",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-141",
+        "child": "child-141",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-142",
+        "child": "child-142",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-143",
+        "child": "child-143",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-144",
+        "child": "child-144",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-145",
+        "child": "child-145",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-146",
+        "child": "child-146",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-147",
+        "child": "child-147",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-148",
+        "child": "child-148",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-149",
+        "child": "child-149",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-150",
+        "child": "child-150",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-151",
+        "child": "child-151",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-152",
+        "child": "child-152",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-153",
+        "child": "child-153",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-154",
+        "child": "child-154",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-155",
+        "child": "child-155",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-156",
+        "child": "child-156",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-157",
+        "child": "child-157",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-158",
+        "child": "child-158",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-159",
+        "child": "child-159",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-160",
+        "child": "child-160",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-161",
+        "child": "child-161",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-162",
+        "child": "child-162",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-163",
+        "child": "child-163",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-164",
+        "child": "child-164",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-165",
+        "child": "child-165",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-166",
+        "child": "child-166",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-167",
+        "child": "child-167",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-168",
+        "child": "child-168",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-169",
+        "child": "child-169",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-170",
+        "child": "child-170",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-171",
+        "child": "child-171",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-172",
+        "child": "child-172",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-173",
+        "child": "child-173",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-174",
+        "child": "child-174",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-175",
+        "child": "child-175",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-176",
+        "child": "child-176",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-177",
+        "child": "child-177",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-178",
+        "child": "child-178",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-179",
+        "child": "child-179",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-180",
+        "child": "child-180",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-181",
+        "child": "child-181",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-182",
+        "child": "child-182",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-183",
+        "child": "child-183",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-184",
+        "child": "child-184",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-185",
+        "child": "child-185",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-186",
+        "child": "child-186",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-187",
+        "child": "child-187",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-188",
+        "child": "child-188",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-189",
+        "child": "child-189",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-190",
+        "child": "child-190",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-191",
+        "child": "child-191",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-192",
+        "child": "child-192",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-193",
+        "child": "child-193",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-194",
+        "child": "child-194",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-195",
+        "child": "child-195",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-196",
+        "child": "child-196",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-197",
+        "child": "child-197",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-198",
+        "child": "child-198",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-199",
+        "child": "child-199",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-200",
+        "child": "child-200",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-201",
+        "child": "child-201",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-202",
+        "child": "child-202",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-203",
+        "child": "child-203",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-204",
+        "child": "child-204",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-205",
+        "child": "child-205",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-206",
+        "child": "child-206",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-207",
+        "child": "child-207",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-208",
+        "child": "child-208",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-209",
+        "child": "child-209",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-210",
+        "child": "child-210",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-211",
+        "child": "child-211",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-212",
+        "child": "child-212",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-213",
+        "child": "child-213",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-214",
+        "child": "child-214",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-215",
+        "child": "child-215",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-216",
+        "child": "child-216",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-217",
+        "child": "child-217",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-218",
+        "child": "child-218",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-219",
+        "child": "child-219",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-220",
+        "child": "child-220",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-221",
+        "child": "child-221",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-222",
+        "child": "child-222",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-223",
+        "child": "child-223",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-224",
+        "child": "child-224",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-225",
+        "child": "child-225",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-226",
+        "child": "child-226",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-227",
+        "child": "child-227",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-228",
+        "child": "child-228",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-229",
+        "child": "child-229",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-230",
+        "child": "child-230",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-231",
+        "child": "child-231",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-232",
+        "child": "child-232",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-233",
+        "child": "child-233",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-234",
+        "child": "child-234",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-235",
+        "child": "child-235",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-236",
+        "child": "child-236",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-237",
+        "child": "child-237",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-238",
+        "child": "child-238",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-239",
+        "child": "child-239",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-240",
+        "child": "child-240",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-241",
+        "child": "child-241",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-242",
+        "child": "child-242",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-243",
+        "child": "child-243",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-244",
+        "child": "child-244",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-245",
+        "child": "child-245",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-246",
+        "child": "child-246",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-247",
+        "child": "child-247",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-248",
+        "child": "child-248",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-249",
+        "child": "child-249",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-250",
+        "child": "child-250",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-251",
+        "child": "child-251",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-252",
+        "child": "child-252",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-253",
+        "child": "child-253",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-254",
+        "child": "child-254",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-255",
+        "child": "child-255",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-256",
+        "child": "child-256",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-257",
+        "child": "child-257",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-258",
+        "child": "child-258",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-259",
+        "child": "child-259",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-260",
+        "child": "child-260",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-261",
+        "child": "child-261",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-262",
+        "child": "child-262",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-263",
+        "child": "child-263",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-264",
+        "child": "child-264",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-265",
+        "child": "child-265",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-266",
+        "child": "child-266",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-267",
+        "child": "child-267",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-268",
+        "child": "child-268",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-269",
+        "child": "child-269",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-270",
+        "child": "child-270",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-271",
+        "child": "child-271",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-272",
+        "child": "child-272",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-273",
+        "child": "child-273",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-274",
+        "child": "child-274",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-275",
+        "child": "child-275",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-276",
+        "child": "child-276",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-277",
+        "child": "child-277",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-278",
+        "child": "child-278",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-279",
+        "child": "child-279",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-280",
+        "child": "child-280",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-281",
+        "child": "child-281",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-282",
+        "child": "child-282",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-283",
+        "child": "child-283",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-284",
+        "child": "child-284",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-285",
+        "child": "child-285",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-286",
+        "child": "child-286",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-287",
+        "child": "child-287",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-288",
+        "child": "child-288",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-289",
+        "child": "child-289",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-290",
+        "child": "child-290",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-291",
+        "child": "child-291",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-292",
+        "child": "child-292",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-293",
+        "child": "child-293",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-294",
+        "child": "child-294",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-295",
+        "child": "child-295",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-296",
+        "child": "child-296",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-297",
+        "child": "child-297",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-298",
+        "child": "child-298",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-299",
+        "child": "child-299",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-300",
+        "child": "child-300",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-301",
+        "child": "child-301",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-302",
+        "child": "child-302",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-303",
+        "child": "child-303",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-304",
+        "child": "child-304",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-305",
+        "child": "child-305",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-306",
+        "child": "child-306",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-307",
+        "child": "child-307",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-308",
+        "child": "child-308",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-309",
+        "child": "child-309",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-310",
+        "child": "child-310",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-311",
+        "child": "child-311",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-312",
+        "child": "child-312",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-313",
+        "child": "child-313",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-314",
+        "child": "child-314",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-315",
+        "child": "child-315",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-316",
+        "child": "child-316",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-317",
+        "child": "child-317",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-318",
+        "child": "child-318",
+        "provider": "p",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "id": "enrollment-319",
+        "child": "child-319",
+        "provider": "q",
+        "start": "2026-11-01",
+        "end": "2026-12-01",
+        "options": [],
+        "attendance": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      }
+    ]
+  },
+  "study": {
+    "start": "2026-11-01",
+    "end": "2026-12-01",
+    "bin_width_cents": 50000,
+    "left_cents": 1000000,
+    "right_cents": 5000000,
+    "excluded_lower_cents": 2900000,
+    "excluded_upper_cents": 3100000,
+    "polynomial_degrees": [
+      1,
+      2,
+      3
+    ],
+    "bootstrap_households": 100,
+    "seed": 41128
+  }
+}
